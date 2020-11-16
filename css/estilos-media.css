@@ -1,0 +1,724 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px){
+	
+	#header-logo{
+		width: 178.5px;
+		height: 61.5px;
+	}
+
+	.nav-link{ /*solo los link*/
+		height: 35px;
+		font-size: 17px;
+		color: white;
+	}
+
+	.banner-movil{
+		width: 100%;
+		height: 420px;
+	}
+
+	.carousel-caption{
+		margin-bottom: 30%;
+	}
+
+	#carousel-mov h1{
+		font-size: 20px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	#banner-empezar{
+		width: 70%;
+		height: 70%;
+	}
+
+	.paralelogramo{
+		height: 70px;
+	}
+
+	.paralelogramo span{
+
+		padding-left: 10%;
+	}
+
+	/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+
+	.nuestros-servicios h2{
+		font-size: 30px;
+	}
+
+	.ribbon{
+		height: 420px;
+		margin-top: 10%;
+	}
+
+	/*_________________________________PORTAFOLIO__________________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.portafolio h3{
+		font-size: 30px;
+	}
+
+	.portafolio-btn button{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.portfolio-movil{
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.portfolio-movil img{
+		margin-top: 5%;
+	}
+
+	/*__________________________________NUESTROS CLIENTES__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.nuestros-clientes h2{
+		font-size: 25px;
+	}
+
+	/*____________________________________QUIENES SOMOS____________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.quienes-somos h2{
+		font-size: 35px;
+	}
+
+	.quienes-somos h3{
+		font-size: 28px;
+	}
+
+	.quienes-somos img{
+		height: 266px;
+	}
+
+	/*_________________________________SOLICITAR COTIAZION_________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.solicitar-cotizacion{
+		background-image: url(../img/free-consultation-background.jpg);
+		background-size: cover;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.solicitar-cotizacion h2{
+		font-size: 30px;
+	}
+
+	/*________________________________________FOOTER_______________________________________*/
+	/*_____________________________________________________________________________________*/
+	
+	.link-logo{
+		margin-left: 18%;
+		margin-right: 18%;
+	}
+
+	.nav-footer{
+		margin-left: 0;	
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#footer-copyright{
+		font-size: 10px;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px){
+	
+	.banner-movil{
+		width: 100%;
+		height: 500px;
+	}
+
+	.nav-link{ /*solo los link*/
+		height: 35px;
+		font-size: 17px;
+		color: white;
+	}
+
+	.paralelogramo{
+		height: 70px;
+	}
+
+	.paralelogramo span{
+
+		padding-left: 10%;
+	}
+
+	.carousel-caption{
+		margin-bottom: 25%;
+	}
+
+	#carousel-mov h1{
+		font-size: 24px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	#banner-empezar{
+		width: 70%;
+		height: 70%;
+	}
+
+		/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+
+	.nuestros-servicios h2{
+		font-size: 30px;
+	}
+
+	.ribbon{
+		height: 420px;
+		margin-top: 10%;
+	}
+
+	/*_________________________________PORTAFOLIO__________________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.portafolio h3{
+		font-size: 30px;
+	}
+
+	.portafolio-btn button{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.portfolio-movil{
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.portfolio-movil img{
+		margin-top: 5%;
+	}
+
+	/*__________________________________NUESTROS CLIENTES__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.nuestros-clientes h2{
+		font-size: 25px;
+	}
+
+	/*____________________________________QUIENES SOMOS____________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.quienes-somos h2{
+		font-size: 35px;
+	}
+
+	.quienes-somos h3{
+		font-size: 28px;
+	}
+
+	.quienes-somos img{
+		height: 346px;
+	}
+
+	/*_________________________________SOLICITAR COTIAZION_________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.solicitar-cotizacion{
+		background-image: url(../img/free-consultation-background.jpg);
+		background-size: cover;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.solicitar-cotizacion h2{
+		font-size: 30px;
+	}
+
+	/*________________________________________FOOTER_______________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.link-logo{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.nav-footer{
+		margin-left: 0;	
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#footer-copyright{
+		font-size: 10px;
+	}
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 736px){
+	.banner-movil{
+		width: 100%;
+		height: 480px;
+	}
+	
+	.nav-link{ /*solo los link*/
+		height: 35px;
+		font-size: 17px;
+		color: white;
+	}
+
+	.paralelogramo{
+		height: 70px;
+	}
+
+	.paralelogramo span{
+
+		padding-left: 10%;
+	}
+
+	.carousel-caption{
+		margin-bottom: 12%;
+	}
+
+	#carousel-mov h1{
+		font-size: 28px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	#banner-empezar{
+		width: 60%;
+		height: 60%;
+	}
+
+	.nuestros-servicios h2{
+		font-size: 30px;
+	}
+
+		.portafolio h3{
+		font-size: 30px;
+	}
+	
+	.ribbon{
+
+		height: 320px;
+		margin-top: 10%;
+
+	}
+
+	.ribbon img{
+		width: 50%;
+		height: 35%;
+		margin-top: 3%;
+	}
+
+	.ribbon h3{
+
+		font-size: 15px;
+
+	}
+
+	.ribbon p{
+		font-size: 11px;
+	}
+
+	.portafolio-btn button{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.portfolio-movil{
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.portfolio-movil img{
+		margin-top: 5%;
+	}
+	
+	.link-logo{
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.nav-footer{
+		margin-left: 0;	
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+		font-weight: bold;
+		height: 35px;
+	}
+
+	#footer-copyright{
+		font-size: 10px;
+	}
+
+}
+
+@media only screen and (min-device-width: 737px) and (max-device-width: 768px){
+	
+	.nav-link{ /*solo los link*/
+		height: 65px;
+		font-size: 17px;
+		color: white;
+	}
+	
+	.paralelogramo span{
+
+		padding-left: 10%;
+	}
+
+	.carousel-caption{
+		margin-bottom: 5%;
+	}
+	
+	.carousel-caption h1{
+		font-weight: bold;
+		font-style: italic;
+		letter-spacing: 1px;
+	}
+
+	#banner-logo{
+		width: 357px;
+		height: 123px;
+	}	
+	
+	#banner-empezar{
+		width: 50%;
+		height: 50%;
+	}
+	
+
+	/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+
+	.nuestros-servicios h2{
+		font-size: 30px;
+	}
+
+	.ribbon{
+		height: 480px;
+	}
+
+	.ribbon h3{
+		font-size: 20px;
+	}
+
+	/*_________________________________PORTAFOLIO__________________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.portafolio h3{
+		font-size: 30px;
+	}
+
+	.portafolio-btn button{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.portfolio-movil{
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.portfolio-movil img{
+		margin-top: 5%;
+	}
+
+	/*__________________________________NUESTROS CLIENTES__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.nuestros-clientes h2{
+		font-size: 25px;
+	}
+
+	/*____________________________________QUIENES SOMOS____________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.quienes-somos h2{
+		font-size: 35px;
+	}
+
+	.quienes-somos h3{
+		font-size: 28px;
+	}
+
+	/*_________________________________SOLICITAR COTIAZION_________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.solicitar-cotizacion{
+		background-image: url(../img/free-consultation-background.jpg);
+		background-size: cover;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.solicitar-cotizacion h2{
+		font-size: 30px;
+	}
+
+	/*________________________________________FOOTER_______________________________________*/
+	/*_____________________________________________________________________________________*/
+	
+	.link-logo{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+	.nav-footer{
+		margin-left: 0;	
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+		font-weight: bold;
+		height: 35px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+#header-logo {
+	width: 178.5px;
+	height: 61.5px;
+}
+
+.paralelogramo span{
+
+	padding-left: 10%;
+}
+
+.nav-link{ /*solo los link*/
+	font-size: 14px;
+}
+
+.nav-item{ /*contenedor de links*/
+	margin-left: 1%;
+}
+
+/*________________________________________FOOTER_______________________________________*/
+/*_____________________________________________________________________________________*/
+	
+	.link-logo{
+		margin-left: 0%;
+		margin-right: 0;
+	}
+
+	.nav-footer{
+		margin-left: 15%;
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+
+	.nav-link{ /*solo los link*/
+		font-size: 12px;
+	}
+
+	.paralelogramo{
+		width: 120px;
+	}
+
+	.carousel-caption{
+		margin-bottom: 5%;
+	}
+	
+	.carousel-caption h1{
+		font-weight: bold;
+		font-style: italic;
+		letter-spacing: 1px;
+	}
+	
+
+	/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+
+	.nuestros-servicios h2{
+		font-size: 35px;
+	}
+
+	.ribbon{
+		height: 480px;
+	}
+
+	.ribbon h3{
+		font-size: 20px;
+	}
+
+	/*_________________________________PORTAFOLIO__________________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.portafolio-btn button{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.portfolio-movil{
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.portfolio-movil img{
+		margin-top: 5%;
+	}
+
+	/*_________________________________SOLICITAR COTIAZION_________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.solicitar-cotizacion{
+		background-image: url(../img/free-consultation-background.jpg);
+		background-size: cover;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	/*________________________________________FOOTER_______________________________________*/
+	/*_____________________________________________________________________________________*/
+	
+	.nav-footer{
+		margin-left: 10%;
+	}
+	.nav-footer a{
+		font-size: 15px;
+	}
+}
+
+/*Iphone X landscape*/
+@media only screen and (device-width: 812px){
+	
+	.nav-link{ /*solo los link*/
+		height: 35px;
+		font-size: 12px;
+		color: white;
+	}
+	
+	.paralelogramo{
+		height: 70px;
+	}
+
+	.paralelogramo span{
+
+		padding-left: 12%;
+	}
+
+	.carousel-caption{
+		margin-bottom: 1%;
+	}
+
+	#carousel-mov h1{
+		font-size: 28px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	#banner-empezar{
+		width: 50%;
+		height: 50%;
+	}
+
+	.link-logo{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+	.nav-footer{
+		margin-left: 0;	
+	}
+	
+	.nav-footer li{
+		display: inline;
+
+	}
+
+	.nav-footer a{
+		font-size: 15px;
+		font-weight: bold;
+		height: 35px;
+	}
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px){
+	
+	/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.ribbon{
+		height: 420px;
+	}
+	
+}
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1440px){
+	/*_________________________________NUESTROS SERVICIOS__________________________________*/
+	/*_____________________________________________________________________________________*/
+
+	.ribbon{
+		height: 440px;
+	}
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1680px){}
+
+@media only screen and (min-device-width: 1681px) and (max-device-width: 1920px){}
+
+	
+/*@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (min-device-width: 1681px) and (max-device-width: 1920px),
+only screen and (min-resolution: 200dpi){
+	
+	.paralelogramo{
+		background-color: #da304c;
+		-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+		clip-path: polygon(5% 25%, 100% 25%, 95% 75%, 0% 75%);
+		width: 150px;
+	}
+}*/

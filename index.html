@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127752837-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-127752837-1');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<meta name="description" content="Desarrollo de paginas web responsivo, diseño grafico, publicidad y logos">
+	<meta name="theme-color" content="#da304c" /> 
+	<meta name="robots" content="index,follow"> 
+	<meta name="author" content="Julian Peña Lopez & Francisco Flores Delzon"> 
+	<meta name="owner" content="lyncecreative.com & lyncecreative.cl">
+	<meta name="keywords" content="lyncecreative, paginas o sitios web, desarrollo web, responsivo, autoadministrable, publicidad, logos, marcas, diseño grafico">  
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+    <link rel="icon" type="image/png" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos-media.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700" rel="stylesheet">
+    <script src="js/modernizr-custom.js"></script> 
+	<title>Lyncecreative</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!------------------------------------------------- HEADER -------------------------------------------------->
+	<header class="container-fluid" role=banner>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-expand-lg col-lg-12 col-md-12" role=navigation>
+					<a class="navbar-brand" href="index.html" role=link><img src="img/header-logo.png" alt="header-logo" class="img-fluid" id="header-logo"></a>
+				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role=button >
+				    <i class="fas fa-bars"></i>
+				  	</button>
+					<div class="collapse navbar-collapse" id="navbarHeader">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="index.html" role=link>INICIO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#services" role=link>SERVICIOS</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#portfolio" role=link>PORTAFOLIO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#customers" role=link>NUESTROS CLIENTES</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#about-us" role=link>ACERCA DE</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center paralelogramo" href="#quote-here" role=link><span id="span-cotiza-aqui">COTIZA AQUÍ</span></a>
+				      </li>
+				    </ul>
+				    </div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!------------------------------------------------- MAIN -------------------------------------------------->
+	<main role=main>
+
+		<!-- Banner Desktop, Nkb y Tablet -->
+		<div id="background-container" class="carousel slide d-none d-sm-none d-md-block" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active" id="video_carousel">
+			  <div id="video">
+			  	<video class="d-block w-100" muted autoplay loop playsinline>
+					<source src="videos/background-mov.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+			  	</video>
+			  </div>
+			  <div class="carousel-caption">
+			  		<h1>AGENCIA PUBLICIDAD ONLINE</h1>
+				    <img src="img/banner-logo.png" class="d-block mx-auto img-fluid" alt="banner-logo" id="banner-logo">
+				    <a href="#quote-here"><img src="img/empezar.png" class="d-block mx-auto img-fluid" alt="banner-empezar" id="banner-empezar"></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- Banner solo movil -->
+		
+		<div id="background-container" class="carousel slide d-sm-block d-md-none d-lg-none" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active" id="carousel-mov">
+			  <img src="img/background-mov.jpg" alt="banner-movil" class="banner-movil d-block w-100">
+			  <div class="carousel-caption caption-mov">
+			  		<h1>AGENCIA PUBLICIDAD ONLINE</h1>
+			  		<img src="img/banner-logo.png" class="d-block mx-auto img-fluid" alt="banner-logo" id="banner-logo">
+				    <a href="#quote-here"><img src="img/empezar.png" class="d-block mx-auto img-fluid" alt="banner-empezar" id="banner-empezar"></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="decoracion-nuestros-servicios" id="servicios" ></div>
+		<!-- about -->
+		<div class="container quienes-somos">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="text-center">QUIENES SOMOS</h2>
+					<p class="text-center">
+					Lynce Creative es una innovadora agencia de diseño y publicidad ubicada en Santiago de Chile, pero nos enfocamos en trabajar con usted en línea, para así poder comunicarnos con usted donde sea que esté.<br><br>
+					Somos un grupo de profesionales independientes con muchos años de experiencia, que se unieron para trabajar en equipo, uniendo fuerzas para así poder ofrecer los mejores servicios. Le ayudamos a crear la imagen de su empresa, desarrollar su marca y transmitir su historia a través del mundo digital.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Secciones -->
+		
+		<div class="container" id="services">
+			<section class="row">
+				<div class="col-lg-12 nuestros-servicios">
+					<h2 class="text-center">SERVICIOS</h2>
+					<!-- <p class="text-center">Creamos tu imagen y la promocionamos en internet</p> -->
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/web-sites.png" class="d-block mx-auto" alt="web-sites">
+						<h3 class="text-center" >SITIOS WEB</h3>
+						<p class="text-justify text-center d-block mx-auto">Cautive a sus clientes con un sitio web producido profesionalmente y hermosos diseños, 100% adaptados a dispositivos móviles.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/branding.png" class="d-block mx-auto" alt="branding">
+						<h3 class="text-center" >DESARROLLO DE MARCA</h3>
+						<p class="text-justify text-center d-block mx-auto">Su marca es la representación del carácter y el alma de su empresa. Comenzamos a desarrollar su marca identificando su modelo de negocio y su propósito.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/graphic-design.png" class="d-block mx-auto" alt="branding">
+						<h3 class="text-center" >DISEÑO GRAFICO</h3>
+						<p class="text-justify text-center d-block mx-auto">Las primeras impresiones significan todo, capte la atención de clientes potenciales con un atractivo diseño gráfico para sus materiales de publicidad y marca.</p>
+					</div>
+				</div>
+			</section>
+			<section class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/internet-marketing.png" class="d-block mx-auto" alt="web-sites">
+						<h3 class="text-center" >PUBLICIDAD ONLINE</h3>
+						<p class="text-justify text-center d-block mx-auto">Le damos visibilidad en internet. Difundimos la palabra de su empresa a través de los sitios web específicos que su público objetivo visita con mas frecuencia.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/ecommerce.png" class="d-block mx-auto" alt="branding">
+						<h3 class="text-center" >ECOMMERCE</h3>
+						<p class="text-justify text-center d-block mx-auto">Podemos configurar su tienda en línea y ayudarlo a que le paguen por sus productos. Lo mejor de todo es que podemos usar los métodos de pago que usted elija.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="ribbon">
+						<img src="img/programming.png" class="d-block mx-auto" alt="branding">
+						<h3 class="text-center" >PROGRAMACION</h3>
+						<p class="text-justify text-center d-block mx-auto">¿Estás buscando un programa que no existe? Nosotros podemos desarrollar ese software especifico que usted esta buscando.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Portafolio -->
+		<div class="container-fluid portafolio" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="text-center">PORTAFOLIO</h3>
+						<p class="text-center">Nuestros proyectos</p>
+					</div>
+				</div>
+				<div class="row justify-content-around portafolio-btn">
+						<button id="btn-web" type="button" class="col-lg-3 col-md-3 col-sm-8 col-8 btn btn-outline-primary">SITIOS WEB</button>
+						<button id="btn-logo" type="button" class="col-lg-3 col-md-3 col-sm-8 col-8 btn btn-outline-primary">DISEÑO DE LOGOS</button>
+						<button id="btn-publicidad" type="button" class="col-lg-3 col-md-3 col-sm-8 col-8 btn btn-outline-primary">DISEÑO PUBLICITARIO</button>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 portfolio-blocks-embed d-none d-sm-none d-md-block">
+						<div id="carousel-portfolio" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+							    <li data-target="#carousel-portfolio" data-slide-to="0" class="target-0 active"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="1" class="target-remove-1 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="2" class="target-remove-2 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="3" class="target-remove-3 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="4" class="target-remove-4 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="5" class="target-remove-5 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="6" class="target-remove-6 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="7" class="target-remove-7 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="8" class="target-remove-8 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="9" class="target-remove-9 target-remove"></li>
+							    <li data-target="#carousel-portfolio" data-slide-to="10" class="target-remove-10 target-remove"></li>
+							</ol>
+						  <div class="carousel-inner carousel-portafolio">
+						    <div class="carousel-item carousel-item-1 active">
+						      <img class="d-block w-100 portfolio-1" src="img/portfolio-1.png" alt="portfolio-1">
+						    </div>
+						    <div class="carousel-item carousel-item-2 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-2 remove-portfolio" src="img/portfolio-2.png" alt="portfolio-2">
+						    </div>
+						    <div class="carousel-item carousel-item-3 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-3 remove-portfolio" src="img/portfolio-3.png" alt="portfolio-3">
+						    </div>
+						    <div class="carousel-item carousel-item-4 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-4 remove-portfolio " src="img/portfolio-4.png" alt="portfolio-4">
+						    </div>
+						    <div class="carousel-item carousel-item-5 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-5 remove-portfolio" src="img/portfolio-5.png" alt="portfolio-5">
+						    </div>
+						    <div class="carousel-item carousel-item-6 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-6 remove-portfolio" src="img/portfolio-6.png" alt="portfolio-6">
+						    </div>
+						    <div class="carousel-item carousel-item-7 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-7 remove-portfolio" src="img/portfolio-7.png" alt="portfolio-7">
+						    </div>
+						    <div class="carousel-item carousel-item-8 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-8 remove-portfolio" src="img/portfolio-8.png" alt="portfolio-8">
+						    </div>
+						    <div class="carousel-item carousel-item-9 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-9 remove-portfolio" src="img/portfolio-9.png" alt="portfolio-9">
+						    </div>
+						    <div class="carousel-item carousel-item-10 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-10 remove-portfolio" src="img/portfolio-10.png" alt="portfolio-10">
+						    </div>
+						    <div class="carousel-item carousel-item-11 remove-portfolio-item">
+						      <img class="d-block w-100 portfolio-11 remove-portfolio" src="img/portfolio-11.png" alt="portfolio-11">
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- solo en movil -->
+					<div class="col-sm-12 col-12 d-sm-block d-md-none d-lg-none portfolio-movil">
+						<img src="img/portfolio-1.png" alt="portfolio-1" class="img-fluid movil-img-1">
+						<img src="img/portfolio-2.png" alt="portfolio-2" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-3.png" alt="portfolio-3" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-4.png" alt="portfolio-4" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-5.png" alt="portfolio-5" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-6.png" alt="portfolio-6" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-7.png" alt="portfolio-7" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-8.png" alt="portfolio-8" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-9.png" alt="portfolio-9" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-10.png" alt="portfolio-10" class="img-fluid remove-movil-img">
+						<img src="img/portfolio-11.png" alt="portfolio-11" class="img-fluid remove-movil-img">
+					</div>
+					<div class="col-lg-12">
+						<button type="button" class="btn paralelogramo-portafolio d-block mx-auto"><a target="_blank" href="https://www.behance.net/lyncecreative">VER MAS</a></button>
+					</div>
+					
+					
+				</div>
+				
+			</div>
+		</div>
+
+
+		<!-- Nuestros clientes -->
+		<div class="container" id="customers">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12 d-none d-sm-none d-md-block">
+					<div id="carousel-clientes" class="carousel slide nuestros-clientes carousel-fade" data-ride="carousel">
+					  <h2 class="text-center">NUESTROS CLIENTES</h2>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="img/clientes-1.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="img/clientes-2.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="img/clientes-3.jpg" alt="Third slide">
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-12 d-sm-block d-md-none d-lg-none">
+					<div id="carousel-clientes" class="carousel slide nuestros-clientes carousel-fade" data-ride="carousel">
+					  <h2 class="text-center">NUESTROS CLIENTES</h2>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block mw-100 mx-auto" src="img/clientes-movil.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block mw-100 mx-auto" src="img/clientes-movil-2.jpg" alt="Second slide">
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="about-us">
+			<div class="row quienes-somos">
+				<h2 class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">NUESTRA MISIÓN</h2>
+				<p class="col-lg-12 col-md-12 col-sm-12 col-12">Nuestra misión es cuidar de obtenerle nuevos clientes con frecuencia, promoviendo su negocio atreves de la internet. Nos encargamos de este extremo del negocio por usted, esa parte que la mayoría de los propietarios consideran tedioso, para que así usted pueda enfocarse en lo que hace mejor, los servicios que ofrece. Nos encanta ver startups crecer a lo grande, llevando todas esas ideas y sueños que tienes a la vida. ¡Lynce Creative te guiará a la cima de la montaña!.
+				</p>
+				<div class="col-lg-5 col-md-12 col-sm-12 col-12 reasons-container">
+					<h3>RAZONES PARA ELEGIRNOS:</h3>
+					<p>Lynce Creative se enorgullece de sorprender a nuestros clientes con nuestra creatividad. Aquí hay algunas razones por las cuales usted debe contratarnos.</p>
+					<ul class="fa-ul">
+						<li><span class="fa-li"><i class="fas fa-check"></i></span>Construimos sitios web potentes.</li><br>
+						<li><span class="fa-li"><i class="fas fa-check"></i></span>Nos mantenemos al día con las tendencias de publicidad en línea.</li><br>
+						<li><span class="fa-li"><i class="fas fa-check"></i></span>No dejaremos de diseñar hasta que se vea como lo imaginaste.</li><br>
+						<li><span class="fa-li"><i class="fas fa-check"></i></span>Somos amigables y honestos.</li><br>
+						<li><span class="fa-li"><i class="fas fa-check"></i></span>Trabajamos muy rápido.</li><br>
+					</ul>
+				</div>
+				<img src="img/who-we-are.png" alt="who-we-are" class="img-fluid col-lg-7 col-md-12 col-sm-12 col-12">
+			</div>
+		</div>
+		<div class="container-fluid solicitar-cotizacion" id="quote-here">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="text-center">SOLICITAR COTIZACIÓN</h2>
+						<p class="text-center">¿Listo para obtener más clientes? Comience hoy mismo completando el siguiente formulario y uno de nuestros representantes se pondrá en contacto con usted en las próximas 48 horas.</p>
+					</div>	
+				</div>
+				<form action="sendmail.php" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<div class="col-lg-4 form-group">
+							<label for="name"></label>
+							<input type="text" class="form-control" id="name" placeholder="Nombre"  name="name" required>
+						</div>
+						<div class="col-lg-4 form-group">
+							<label for="phone"></label>
+							<input type="text" class="form-control" id="email" placeholder="Telefono" name="phone" required>
+						</div>
+						<div class="col-lg-4 form-group">
+							<label for="email"></label>
+							<input type="text" class="form-control" id="phone" placeholder="Correo Electronico" name="email" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 form-group">
+							<label for="message"></label>
+							<textarea class="form-control" type="text" id="message" cols="20" rows="5" placeholder="Descripcion del proyecto" name="message" required></textarea>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<input type="submit" class="btn d-block mx-auto d-block" value="ENVIAR" id="btn-submit">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<!------------------------------------------------- FOOTER -------------------------------------------------->
+	<footer role=contentinfo>
+		<!-- Para usar con navs. -->
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-expand-lg col-lg-12 col-md-12 col-sm-12 col-12" role=navigation>
+					<a class="navbar-brand link-logo" href="index.html" role=link><img src="img/header-logo.png" alt="header-logo" id="header-logo"></a>
+					
+				    <ul class="navbar-nav mr-auto nav-footer">
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="index.html" role=link>INICIO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#services" role=link>SERVICIOS</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#portfolio" role=link>PORTAFOLIO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#customers" role=link>NUESTROS CLIENTES</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link d-flex align-items-center" href="#about-us" role=link>ACERCA DE</a>
+				      </li>
+				    </ul>
+				</nav>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+					<p class="text-center" id="footer-copyright">Copyright © 2018 - All rights reserverd.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>
